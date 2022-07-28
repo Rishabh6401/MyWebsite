@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+body{
+    width: 100%;
+    margin: 0;padding: 0;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+header{
+    background-color: #333;
+        height: 6vh;
+        width: 100vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    /* position: fixed; */
+    margin: 0;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-size: 20px;
+}
+footer{
+    background-color:#333;
+}
+.container{
+    /* background-color:#333; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    /* padding: 0 3rem; */
+}
+.container ul li a{
+    text-decoration: none;
+    display: grid;
+    color: rgb(177, 170, 170);
+}
+.coloumn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 100px;
+    padding: 2rem;
+    text-align: left;
+    font-size: 15px;
+    row-gap: 10px;
+}
+.coloumn ul li{
+    list-style: none;
+    padding-bottom: 9px;
+}
+
+.last{
+    background-color: black;
+    color: white;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .coloumn ul li:first-child{
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: rgb(202, 195, 195) solid 1px;
+}
+.showcase{
+    background: url("showcase.jpg") no-repeat center/cover;
+    height: 100vh;
+    
+}
+.main-container{
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+    margin-top: 25vh;
+}
+h1{
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    font-weight: normal;
+}
+h2{
+    font-size: 32px;
+    font-style: italic;
+    font-weight: normal;
+    padding-bottom: 4vh;
+    color: white;
+}
+p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+    .left{
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    left: 85px;
+}
+#music{
+    background-color: #333;
+    height: 170vh;
+}
+.cont{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    padding-top: 6vh;
+
+}
+.head{
+    font-size: 38px;
+    color: white;
+    font-family: cursive;
+    padding-bottom: 6vh;
+}
+h3{
+    font-size: 32px;
+    font-style: italic;
+    font-weight: normal;
+    padding-bottom: 4vh;
+}
+button{
+    background-color:darkred;
+    color: white;
+    font-weight: bold;
+    border: darkred solid 1px;
+    height: 7vh;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: red;
+}
+.era{
+    background-color:#333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 7vh;
+}
+#video{
+    height: 180vh;
+}
+.hello{
+    color:black;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+#yes{
+    background-color: blue;
+    color: white;
+    height: 6vh;
+    width: 7vw;
+}
+#yes:hover{
+    background-color: darkblue;
+}
+.mobile{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+#entertainment{
+    background: url("section.png") no-repeat center/cover;
+    height: 60vh;
+}
+#box{
+    font-size: 32px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: normal;
+    padding-bottom: 4vh;
+    padding-top: 9vh;
+}
+#listen{
+    font-size: 19px;
+}
+#gift{
+    display: grid;
+    height: 72vh;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+.two{
+    height: 30vh;
+    width: 34vw;
+    padding-left: 54px;
+    padding-top: 9vh;
+}
+.all{
+    font-size: 23px;
+    padding-top: 12vh;
+    text-shadow: black;
+}
+#id{
+    font-size: 23px;
+}
+.he::before {
+    content: ' \00BB';
+}
+.he{
+    text-decoration: none;
+    color: #103063;
+}
